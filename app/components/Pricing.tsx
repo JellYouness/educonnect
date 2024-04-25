@@ -56,14 +56,14 @@ const Pricing = () => {
               Select Plan
             </Button>
             <div className="flex flex-col justify-start items-start gap-4 w-full mt-4 pl-2">
-              {Standard.features.map((feature) => (
-                <div className="flex items-start gap-4 text-sm">
+              {Standard.features.map((feature, index) => (
+                <div key={index} className="flex items-start gap-4 text-sm">
                   <Check />
                   <p>{feature}</p>
                 </div>
               ))}
-              {Standard.pro.map((feature) => (
-                <div className="flex items-start gap-4 text-sm">
+              {Standard.pro.map((feature, index) => (
+                <div key={index} className="flex items-start gap-4 text-sm">
                   <Check locked />
                   <p className="line-through">{feature}</p>
                 </div>
@@ -82,12 +82,15 @@ const Pricing = () => {
             <p className="text-sm text-gray-300 w-60 text-center">
               10% discount for 6 months
             </p>
-            <Button variant="outline" className="text-black bg-white font-semibold w-full">
+            <Button
+              variant="outline"
+              className="text-black bg-white font-semibold w-full"
+            >
               Select Plan
             </Button>
             <div className="flex flex-col justify-start items-start gap-4 w-full mt-4 pl-2">
-              {Extended.map((feature) => (
-                <div className="flex items-start gap-4 text-sm">
+              {Extended.map((feature, index) => (
+                <div key={index} className="flex items-start gap-4 text-sm">
                   <Check extended />
                   <p>{feature}</p>
                 </div>
