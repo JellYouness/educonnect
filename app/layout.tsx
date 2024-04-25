@@ -4,7 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import { Analytics } from "@vercel/analytics/next";
 
-const beVietnamPro = Be_Vietnam_Pro({ weight: "400" });
+const beVietnamPro = Be_Vietnam_Pro({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
   title: "EduConnect",
