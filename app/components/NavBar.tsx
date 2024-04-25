@@ -6,14 +6,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
-
-const navElements = [
-  "Product",
-  "Solutions",
-  "Customer",
-  "Pricing",
-  "About Us",
-];
+const navElements = ["Product", "Solutions", "Customer", "Pricing", "About Us"];
 
 const NavBar = () => {
   const [toggle, setToggle] = useState(false);
@@ -41,7 +34,11 @@ const NavBar = () => {
           </Link>
         ))}
       </div>
-      <Button variant="outline" className="px-8 bg-transparent">Demo</Button>
+      <Link href="https://ihei.vercel.app/login" target="_blank">
+        <Button variant="outline" className="px-8 bg-transparent">
+          Demo
+        </Button>
+      </Link>
     </nav>
   );
 };

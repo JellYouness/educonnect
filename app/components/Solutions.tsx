@@ -1,28 +1,30 @@
 import Image from "next/image";
-import { FaChalkboardTeacher } from "react-icons/fa";
+import { FaChalkboardTeacher, FaSchool, FaTasks, FaUserGraduate } from "react-icons/fa";
 
 const Sol = [
   {
-    title: "Fast",
+    title: "Student Management",
     description:
-      "Fast load times and lag free interaction, my highest priority.",
+      "This solution focuses on managing student data, including enrollment, attendance, grades, and demographics.",
     icon: <FaChalkboardTeacher />,
   },
   {
-    title: "Responsive",
-    description: "My layouts will work on any device, big or small.",
-    icon: <FaChalkboardTeacher />,
-  },
-  {
-    title: "Intuitive",
-    description: "Strong preference for easy to use, intuitive UX/UI.",
-    icon: <FaChalkboardTeacher />,
-  },
-  {
-    title: "Dynamic",
+    title: "Learning Management",
     description:
-      "Websites don't have to be static, I love making pages come to life.",
-    icon: <FaChalkboardTeacher />,
+      "Features may include course creation, content management, assignment submission, grading tools, and discussion forums.",
+    icon: <FaSchool />,
+  },
+  {
+    title: "Performance Tracker",
+    description:
+      "This solution encompasses a range of functionalities, including the ability to create and manage courses.",
+    icon: <FaUserGraduate />,
+  },
+  {
+    title: "Integrated ERP",
+    description:
+      "This system offers a comprehensive suite of tools for managing all aspects of school operations in one platform.",
+    icon: <FaTasks />,
   },
 ];
 

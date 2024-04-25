@@ -29,7 +29,7 @@ const Hero = () => {
             </Button>
           </Link>
           <Link
-            href="https://drive.google.com/file/d/1-C3tyIAiNksZvwCB1cqQQC-PnKcUbc-7/view?usp=sharing"
+            href="https://ihei.vercel.app/login"
             target="_blank"
           >
             <Button
