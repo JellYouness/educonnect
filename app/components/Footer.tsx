@@ -4,9 +4,9 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer id="About Us" className="bg-gray-100 px-48 py-10">
-      <div className="flex justify-between items-center p-4">
-        <div className="flex flex-col gap-2 items-start">
+    <footer id="About Us" className="bg-gray-100 md:px-48 py-10">
+      <div className="flex flex-col md:flex-row justify-between items-center p-4 gap-10 md:gap-0">
+        <div className="flex flex-col gap-2 items-center md:items-start">
           <div className="flex items-center gap-3">
             <Image
               src={Logo}
@@ -18,9 +18,11 @@ const Footer = () => {
             />
             <p className="font-semibold text-xl">EduConnect</p>
           </div>
-          <p className="w-2/3">Manage school easily. Everywhere, everytime.</p>
+          <p className="w-full md:w-2/3">
+            Manage school easily. Everywhere, everytime.
+          </p>
         </div>
-        <div className="footer-right flex space-x-16">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:space-x-16">
           <div className="footer-section">
             <h3 className="mb-5 font-semibold">Company</h3>
             <ul className="text-gray-400">

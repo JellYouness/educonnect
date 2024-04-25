@@ -5,7 +5,7 @@ import um6p from "@/assets/partners/um6p.png"
 
 const PartnerLogos = () => {
   return (
-    <div className="w-8/12 mx-auto flex items-center justify-between flex-wrap overflow-hidden mt-[500px]">
+    <div className="md:w-8/12 mx-auto flex flex-col md:flex-row items-center md:justify-between flex-wrap overflow-hidden mt-20 md:mt-[500px]">
       <Image
         src={cambridge}
         alt="partner-logo"

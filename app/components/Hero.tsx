@@ -10,10 +10,10 @@ import PartnerLogos from "./PartnerLogos";
 const Hero = () => {
   return (
     <section id="Home">
-      <div className="flex flex-col justify-start items-center pt-14 gap-4 h-screen w-full [&>*]:text-white bg-primary-main z-50">
-        <p className="text-7xl font-extrabold text-center w-8/12 leading-[110px]">
+      <div className="flex flex-col justify-start items-center pt-10 md:pt-14 gap-6 md:gap-4 h-screen w-full [&>*]:text-white bg-primary-main z-50">
+        <p className="text-5xl md:text-7xl font-extrabold text-center w-10/12 md:w-8/12 leading-[80px] md:leading-[110px]">
           Empower Your School's Future with{" "}
-          <span className="bg-white text-primary-main p-2">EduConnect</span>
+          <span className="bg-white text-primary-main p-2 text-center">EduConnect</span>
         </p>
         <p className="text-xl sm:text-2xl sm:w-6/12 mx-3 text-center">
           Unify your school's operations, enrich student learning, and achieve

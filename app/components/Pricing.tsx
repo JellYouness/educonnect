@@ -32,15 +32,15 @@ const Extended = [
 
 const Pricing = () => {
   return (
-    <section id="Pricing" className="px-80 py-20">
+    <section id="Pricing" className="md:px-80 py-20">
       <h3 className="text-4xl pt-10 font-bold text-center">Our pricing</h3>
       <h6 className="text-center text-gray-400 pt-10">
         Pay securely online and manage the booking via desktop or via the mobile
         app.
       </h6>
       <div>
-        <div className="flex flex-row justify-center gap-20 pt-10">
-          <div className="flex flex-col items-center gap-8 border-2 pt-10 pb-10 px-3 rounded-xl shadow-sm bg-white">
+        <div className="flex flex-col md:flex-row justify-center gap-20 pt-10">
+          <div className="flex flex-col items-center gap-8 border-2 pt-10 pb-10 px-3 mx-10 md:mx-0 rounded-xl shadow-sm bg-white">
             <p className="text-2xl font-semibold">Standard</p>
             <p className="text-sm text-gray-400">
               The national average cost of buying coin easy.
@@ -70,7 +70,7 @@ const Pricing = () => {
               ))}
             </div>
           </div>
-          <div className="flex flex-col items-center gap-8 border-2 pt-10 pb-10 px-3 rounded-xl shadow-sm bg-primary-main text-white">
+          <div className="flex flex-col items-center gap-8 border-2 pt-10 pb-10 px-3 mx-10 md:mx-0 rounded-xl shadow-sm bg-primary-main text-white">
             <p className="text-2xl font-semibold">Extended</p>
             <p className="text-sm text-gray-300">
               The national average cost of buying coin easy.
