@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const Streamline = () => {
   return (
-    <section id="#">
+    <section id="Customer">
       <div className="bg-primary-light overflow-hidden flex items-center justify-center gap-10 p-32 mx-auto relative">
         <div className="absolute overflow-hidden top-[-560px] right-[-700px] size-[1200px] bg-primary-main rounded-full" />
         <div className="flex flex-col items-start gap-6">

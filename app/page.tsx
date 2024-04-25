@@ -5,6 +5,7 @@ import PartnerLogos from "./components/PartnerLogos";
 import Solutions from "./components/Solutions";
 import Streamline from "./components/Streamline";
 import Pricing from "./components/Pricing";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Solutions />
       <Streamline />
       <Pricing />
+      <Footer />
     </main>
   );
 }

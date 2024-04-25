@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     <section id="Home">
       <div className="flex flex-col justify-start items-center pt-14 gap-4 h-screen w-full [&>*]:text-white bg-primary-main z-50">
-        <p className="text-7xl font-bold text-center w-8/12 leading-[110px]">
+        <p className="text-7xl font-extrabold text-center w-8/12 leading-[110px]">
           Empower Your School's Future with{" "}
           <span className="bg-white text-primary-main p-2">EduConnect</span>
         </p>
@@ -23,7 +23,7 @@ const Hero = () => {
           <Link href="#Pricing">
             <Button
               variant="outline"
-              className="px-8 text-primary-main hover:transition delay-100"
+              className="px-8 text-primary-main"
             >
               Try for free
             </Button>
@@ -34,7 +34,7 @@ const Hero = () => {
           >
             <Button
               variant="outline"
-              className="px-8 bg-transparent hover:transition delay-100"
+              className="px-8 bg-transparent"
             >
               View Demo
             </Button>
@@ -49,6 +49,7 @@ const Hero = () => {
             className="mx-auto rounded-2xl object-cover"
             placeholder="blur"
             draggable={false}
+            id="Product"
           />
         </ContainerScroll>
       </div>

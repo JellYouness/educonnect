@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button";
 
 const navElements = [
   "Product",
-  "Solution",
+  "Solutions",
   "Customer",
   "Pricing",
   "About Us",
